@@ -1,6 +1,8 @@
 // import _ from 'lodash';
 // import img from './file.png';
 
-import { bro } from './landing'
+import { Landing } from './landing'
 
-console.log(bro('dush'))
+console.log(Landing.header())
+
+// console.log(bro('dush'))

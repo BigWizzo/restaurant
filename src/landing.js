@@ -41,19 +41,43 @@ class Landing {
     const body = document.getElementById('body');
      // create main
     const main = document.createElement('main');
-    main.className = `menu-section container row`;
-    let cards = {
+    main.className = `menu-section container-fluid row m-0 p-0`;
+    const cards = {
       card1: {
-  	    image1: "http://127.0.0.1:5500/src/images/pexels640.jpg",
-        image2: "http://127.0.0.1:5500/src/images/pexels1280.jpg",
-        h3: "My H3 1",
+  	    image1: "http://127.0.0.1:5500/src/images/img1.jpg",
+        image2: "http://127.0.0.1:5500/src/images/img2.jpg",
+        h3: "H31",
         p: "This is an H3 1",
   	  },
       card2: {
-        image1: "http://127.0.0.1:5500/src/images/pexels1280.jpg",
-        image2: "http://127.0.0.1:5500/src/images/pexels640.jpg",
+        image1: "http://127.0.0.1:5500/src/images/img3.jpg",
+        image2: "http://127.0.0.1:5500/src/images/img4.jpg",
         h5: "My H3 2",
         p: "This is an H3 2",
+      },
+      card3: {
+        image1: "http://127.0.0.1:5500/src/images/img5.jpg",
+        image2: "http://127.0.0.1:5500/src/images/img6.jpg",
+        h3: "H31",
+        p: "This is an H3 1",
+      },
+      card4: {
+        image1: "http://127.0.0.1:5500/src/images/img7.jpg",
+        image2: "http://127.0.0.1:5500/src/images/img8.jpg",
+        h3: "H31",
+        p: "This is an H3 1",
+      },
+      card5: {
+        image1: "http://127.0.0.1:5500/src/images/img9.jpg",
+        image2: "http://127.0.0.1:5500/src/images/img10.jpg",
+        h3: "H31",
+        p: "This is an H3 1",
+      },
+      card6: {
+        image1: "http://127.0.0.1:5500/src/images/img11.jpg",
+        image2: "http://127.0.0.1:5500/src/images/img12.jpg",
+        h3: "H31",
+        p: "This is an H3 1",
       }
     };
 

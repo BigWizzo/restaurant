@@ -42,12 +42,44 @@ class Landing {
      // create main
     const main = document.createElement('main');
     main.className = `menu-section container row`;
+    let mycards = {
+      card1: {
+  	    image1: "http://127.0.0.1:5500/src/images/commit.png",
+        image2: "http://127.0.0.1:5500/src/images/commit.png",
+        h3: "My H3 1",
+        p: "This is an H3 1",
+  	  },
+      card2: {
+        image: "http://127.0.0.1:5500/src/images/commit.png",
+        h3: "My H3 2",
+        p: "This is an H3 2",
+      }
+    };
 
-    const cards = ['card1', 'card2', 'card3', 'card4', 'card5', 'card6', 'card7', 'card8',];
-    cards.forEach(function(cardContent) {
+    Object.keys(mycards).forEach(key => {
+      console.log(key, mycards[key]);
       const card = document.createElement("div");
-      card.className = `menu-card col-3`;
-      card.innerHTML = cardContent;
+      card.className = `menu-card col-4`;
+      card.innerHTML = `
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="http://127.0.0.1:5500/src/images/commit.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      `;
       main.appendChild(card);
     });
     body.appendChild(main);

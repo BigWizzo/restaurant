@@ -1,18 +1,6 @@
-import _ from 'lodash';
-import printMe from './print.js';
+// import _ from 'lodash';
+// import img from './file.png';
 
- function component() {
-   const element = document.createElement('div');
-  const btn = document.createElement('button');
+import { bro } from './landing'
 
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-  btn.innerHTML = 'Click me and check the console!';
-  btn.onclick = printMe;
-
-  element.appendChild(btn);
-
-   return element;
- }
-
- document.body.appendChild(component());
+console.log(bro('dush'))

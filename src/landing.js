@@ -10,7 +10,7 @@ class Landing {
 
     // Create header
     const header = document.createElement('header');
-    header.className = `jumbotron what`;
+    header.className = `jumbotron m-0`;
 
     // create H1
     const jumboH1 = document.createElement('h1');
@@ -42,39 +42,40 @@ class Landing {
      // create main
     const main = document.createElement('main');
     main.className = `menu-section container row`;
-    let mycards = {
+    let cards = {
       card1: {
-  	    image1: "http://127.0.0.1:5500/src/images/commit.png",
-        image2: "http://127.0.0.1:5500/src/images/commit.png",
+  	    image1: "http://127.0.0.1:5500/src/images/pexels640.jpg",
+        image2: "http://127.0.0.1:5500/src/images/pexels1280.jpg",
         h3: "My H3 1",
         p: "This is an H3 1",
   	  },
       card2: {
-        image: "http://127.0.0.1:5500/src/images/commit.png",
-        h3: "My H3 2",
+        image1: "http://127.0.0.1:5500/src/images/pexels1280.jpg",
+        image2: "http://127.0.0.1:5500/src/images/pexels640.jpg",
+        h5: "My H3 2",
         p: "This is an H3 2",
       }
     };
 
-    Object.keys(mycards).forEach(key => {
-      console.log(key, mycards[key]);
+    Object.keys(cards).forEach(key => {
+      // console.log(key, cards[key]);
       const card = document.createElement("div");
-      card.className = `menu-card col-4`;
+      card.className = `menu-card col-4 p-0`;
       card.innerHTML = `
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <img src="${cards[key].image1}" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>${cards[key].h5}</h5>
+              <p>${cards[key].p}</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="http://127.0.0.1:5500/src/images/commit.png" class="d-block w-100" alt="...">
+            <img src="${cards[key].image2}" class="d-block w-100" alt="...">
             <div class="carousel-caption">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5>${cards[key].h5}</h5>
+              <p>${cards[key].p}</p>
             </div>
           </div>
         </div>

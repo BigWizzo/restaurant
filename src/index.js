@@ -3,6 +3,8 @@
 
 import { Landing } from './landing'
 
-Landing.header()
+Landing.header();
+Landing.main();
+// Landing.header();
 
 // console.log(bro('dush'))

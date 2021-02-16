@@ -3,7 +3,9 @@ const bro = (greeting) => {
 }
 
 class Landing {
-  static header() {
+  // declare body
+
+  static header(){
     const body = document.getElementById('body');
 
     // Create header
@@ -31,7 +33,24 @@ class Landing {
     jumboA.appendChild(jumboAText);
     header.appendChild(jumboA);
 
+    // append header to body
     body.appendChild(header);
+  }
+
+  static main(){
+    const body = document.getElementById('body');
+     // create main
+    const main = document.createElement('main');
+    main.className = `menu-section container row`;
+
+    const cards = ['card1', 'card2', 'card3', 'card4', 'card5', 'card6', 'card7', 'card8',];
+    cards.forEach(function(cardContent) {
+      const card = document.createElement("div");
+      card.className = `menu-card col-3`;
+      card.innerHTML = cardContent;
+      main.appendChild(card);
+    });
+    body.appendChild(main);
   }
 }
 

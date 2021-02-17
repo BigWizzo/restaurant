@@ -7,7 +7,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
   },
-  // watch: true,
+  watch: true,
   mode: 'development',
   plugins: [
     new CleanWebpackPlugin(),

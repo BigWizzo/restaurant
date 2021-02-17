@@ -1,65 +1,61 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Social on Main Restaurant
 
-> One paragraph statement about the project.
+- Javascript Restaurant website.
+- The site contains the landing, menu list tab as well as the contact page..
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](screenshot.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Javascript
+- HTML
+- CSS
+- Bootstrap
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
-### Install
+- Open the console
+- Download or git clone https://github.com/karmaester/Books-Books
+- cd Books-Books
 
-### Usage
+Install Node and npm:
 
-### Run tests
+```
+  sudo apt install nodejs
+  sudo apt install npm
+  npm init -y
+  npm install webpack webpack-cli --save-dev
+```
 
-### Deployment
+- Open index.html file in browser
 
+### Github Actions
 
+To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
+
+1. On your recent repo, enable the GitHub Actions in the Actions tab.
+2. Create the `feature/branch` and push.
+3. Open a PR from the `feature/branch` when your work is done.
 
 ## Authors
 
-👤 **Author1**
+👤 **Will Nyamunokora**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@bigwizzo](https://github.com/bigwizzo)
+- Twitter: [@willnyamunokora](https://twitter.com/willnyamunokora)
+- Linkedin: [@willnyamunokora](https://linkedin.com/in/willnyamunokora)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/BigWizzo/restaurant/issues).
 
 ## Show your support
 
@@ -67,10 +63,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Stand up Team
+- TSEs
+- Traversy Media
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.

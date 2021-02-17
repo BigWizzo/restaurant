@@ -5,6 +5,6 @@ import { Landing } from './landing'
 
 Landing.header();
 Landing.main();
-// Landing.header();
+Landing.footer();
 
 // console.log(bro('dush'))

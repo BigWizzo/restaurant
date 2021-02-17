@@ -2,8 +2,8 @@
 
 # Social on Main Restaurant
 
-- Javascript Restaurant website.
-- The site contains the landing, menu list tab as well as the contact page..
+- Javascript Restaurant Page website.
+- The site contains the landing, menuList as well as the contact page..
 
 ![screenshot](screenshot.png)
 
@@ -21,10 +21,10 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Open the console
-- Download or git clone https://github.com/karmaester/Books-Books
+- Download or git clone https://github.com/BigWizzo/restaurant
 - cd Books-Books
 
-Install Node and npm:
+Install Node, npm and webpack:
 
 ```
   sudo apt install nodejs

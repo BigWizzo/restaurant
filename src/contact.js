@@ -1,7 +1,7 @@
-const content = document.getElementById('content');
-
 class Contact {
-  static footer(){ 
+  static footer(){
+    const menu = document.getElementById('menu');
+
     // create footer
     const footer = document.createElement('footer');
     footer.className = `footer`;
@@ -37,7 +37,7 @@ class Contact {
     `;
     footer.appendChild(ftSocial);
   
-    content.appendChild(footer);
+    menu.appendChild(footer);
   }
 }
 

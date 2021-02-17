@@ -1,10 +1,10 @@
-const content = document.getElementById('content');
-
 class Landing {
   static header(){
+    const home = document.getElementById('home');
+    
     // Create header
     const header = document.createElement('header');
-    header.className = `jumbotron m-0`;
+    header.className = `jumbotron m-0 text-center vh-100`;
 
     // create H1
     const jumboH1 = document.createElement('h1');
@@ -28,7 +28,7 @@ class Landing {
     header.appendChild(jumboA);
 
     // append header to content
-    content.appendChild(header);
+    home.appendChild(header);
   }
 
   static main(){
@@ -104,7 +104,7 @@ class Landing {
       `;
       main.appendChild(card);
     });
-    content.appendChild(main);
+    home.appendChild(main);
   }
 
 }

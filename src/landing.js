@@ -1,4 +1,4 @@
-const body = document.getElementById('body');
+const body = document.getElementById('content');
 
 class Landing {
   static header(){
@@ -32,9 +32,11 @@ class Landing {
   }
 
   static main(){
-     // create main
+     // create main div
     const main = document.createElement('main');
     main.className = `menu-section container-fluid row m-0 p-0`;
+
+    // Keep cards as objects
     const cards = {
       card1: {
   	    image1: "http://127.0.0.1:5500/src/images/img1.jpg",
@@ -73,8 +75,11 @@ class Landing {
         p: "This is an H3 1",
       }
     };
-
+    
+    // Loop through cards using Object.keys
     Object.keys(cards).forEach(key => {
+
+      // create card div
       const card = document.createElement("div");
       card.className = `menu-card col-4 p-0`;
       card.innerHTML = `
@@ -139,7 +144,6 @@ class Landing {
       <a href="https://twitter.com/willnyamunokora" class="tag-blue"><i class="fab fa-twitter font-25"></i></a>   
     `;
     footer.appendChild(ftSocial);
-
 
     body.appendChild(footer);
   }

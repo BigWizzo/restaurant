@@ -3,6 +3,7 @@
 
 import { Landing } from './landing'
 
+// Landing.tabs();
 Landing.header();
 Landing.main();
 Landing.footer();

@@ -1,9 +1,7 @@
 const content = document.getElementById('content');
 
 class Contact {
-  static footer(){
-    console.log('footer')
-  
+  static footer(){ 
     // create footer
     const footer = document.createElement('footer');
     footer.className = `footer`;

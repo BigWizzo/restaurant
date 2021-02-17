@@ -1,10 +1,8 @@
 class Contact {
   static footer(){
-    const menu = document.getElementById('menu');
-
     // create footer
     const footer = document.createElement('footer');
-    footer.className = `footer`;
+    footer.className = `footer text-light flex-column d-flex justify-content-center`;
   
     // create contact h3
     const ftContact = document.createElement('h3')
@@ -37,7 +35,7 @@ class Contact {
     `;
     footer.appendChild(ftSocial);
   
-    menu.appendChild(footer);
+    contact.appendChild(footer);
   }
 }
 

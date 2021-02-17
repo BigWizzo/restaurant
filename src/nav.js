@@ -3,7 +3,7 @@ const content = document.getElementById('content');
 class Nav {
   static createNav(){
     content.innerHTML = `
-    <ul class="nav nav-tabs justify-content-center p-2">
+    <ul class="nav nav-tabs bg-dark sticky-top justify-content-center p-2">
       <li class="nav-item">
         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
       </li>

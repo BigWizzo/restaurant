@@ -7,5 +7,5 @@ import { Nav } from './nav';
 Nav.createNav();
 Landing.header();
 Landing.main();
-Contact.footer();
+Contact.contactUs();
 Menu.menuList();

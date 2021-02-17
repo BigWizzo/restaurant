@@ -1,29 +1,29 @@
 class Contact {
-  static footer(){
-    // create footer
-    const footer = document.createElement('footer');
-    footer.className = `footer text-light flex-column d-flex justify-content-center`;
+  static contactUs(){
+    // create contact div
+    const contactDiv = document.createElement('div');
+    contactDiv.className = `contact-div text-light flex-column d-flex justify-content-center`;
   
     // create contact h3
-    const ftContact = document.createElement('h3')
-    ftContact.className = `ft-contact text-center`;
-    const ftContactText = document.createTextNode("Contact Us");
-    ftContact.appendChild(ftContactText);
-    footer.appendChild(ftContact);
+    const contactH3 = document.createElement('h3')
+    contactH3.className = `ft-contact text-center`;
+    const contactH3Text = document.createTextNode("Contact Us");
+    contactH3.appendChild(contactH3Text);
+    contactDiv.appendChild(contactH3);
   
     // create phone p
-    const ftPhone = document.createElement('p')
-    ftPhone.className = `ft-phone text-center`;
-    const ftPhoneText = document.createTextNode("+27 50 754 9281");
-    ftPhone.appendChild(ftPhoneText);
-    footer.appendChild(ftPhone);
+    const contactPhone = document.createElement('p')
+    contactPhone.className = `ft-phone text-center`;
+    const contactPhoneText = document.createTextNode("+27 50 754 9281");
+    contactPhone.appendChild(contactPhoneText);
+    contactDiv.appendChild(contactPhone);
   
     // create address h4
-    const ftAddress = document.createElement('p')
-    ftAddress.className = `ft-contact text-center`;
-    const ftAddressText = document.createTextNode("73 Rosseten Road, JHB");
-    ftAddress.appendChild(ftAddressText);
-    footer.appendChild(ftAddress);
+    const contactAddress = document.createElement('p')
+    contactAddress.className = `ft-contact text-center`;
+    const contactAddressText = document.createTextNode("73 Rosseten Road, JHB");
+    contactAddress.appendChild(contactAddressText);
+    contactDiv.appendChild(contactAddress);
   
     // create social-media icons
     const ftSocial = document.createElement('div')
@@ -33,9 +33,8 @@ class Contact {
       <a href="https://www.linkedin.com/in/willnyamunokora" class="tag-blue"><i class="fab fa-linkedin font-25"></i></a>
       <a href="https://twitter.com/willnyamunokora" class="tag-blue"><i class="fab fa-twitter font-25"></i></a>   
     `;
-    footer.appendChild(ftSocial);
-  
-    contact.appendChild(footer);
+    contactDiv.appendChild(ftSocial);
+    contact.appendChild(contactDiv);
   }
 }
 

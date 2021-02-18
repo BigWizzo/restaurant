@@ -31,6 +31,7 @@ Install Node, npm and webpack:
   sudo apt install npm
   npm init -y
   npm install webpack webpack-cli --save-dev
+  npm run build
 ```
 
 - run `npm run start:dev` to open the project in your browser

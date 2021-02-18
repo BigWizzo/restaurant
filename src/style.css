@@ -1,0 +1,29 @@
+.jumbotron {
+  height: 100vh;
+  background:
+    linear-gradient(to bottom right, #525252ba, #080808d1),
+    url(./images/img3.jpg);
+  background-size: cover;
+  border-radius: 0;
+}
+
+.carousel-caption {
+  background: #00000085;
+  box-shadow: 0 0 4px 1px gray;
+}
+
+.contact-div {
+  height: 100vh;
+  background:
+    linear-gradient(to bottom right, #525252a2, #080808d1),
+    url(./images/img11.jpg);
+  background-size: cover;
+}
+
+.menu-div {
+  height: 100vh;
+  background:
+    linear-gradient(to bottom right, #525252ba, #080808c0),
+    url(./images/img15.jpg);
+  background-size: cover;
+}

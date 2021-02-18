@@ -14,7 +14,6 @@ class Menu {
     // create menu list div
     const menuListDiv = document.createElement('div')
     menuListDiv.className = `menu-list-div text-center`;
-    
     menuListDiv.innerHTML = `
       <div class="menu-list-items">
         <h5>Ba-Pita</h5>

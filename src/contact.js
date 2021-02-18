@@ -18,7 +18,7 @@ class Contact {
     contactPhone.appendChild(contactPhoneText);
     contactDiv.appendChild(contactPhone);
   
-    // create address h4
+    // create address p
     const contactAddress = document.createElement('p')
     contactAddress.className = `ft-contact text-center`;
     const contactAddressText = document.createTextNode("73 Rosseten Road, JHB");

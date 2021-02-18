@@ -1,19 +1,21 @@
-class Menu {
-  static menuList(){
+export default class Menu {
+  static menuList() {
+    const menu = document.getElementById('menu');
+
     // create menu main div
     const menuDiv = document.createElement('div');
-    menuDiv.className = `menu-div text-light flex-column d-flex justify-content-center`;
-  
+    menuDiv.className = 'menu-div text-light flex-column d-flex justify-content-center';
+
     // create menu h3
-    const myMenu = document.createElement('h3')
-    myMenu.className = `menu-list-h3 text-center`;
-    const myMenuText = document.createTextNode("Menu List");
+    const myMenu = document.createElement('h3');
+    myMenu.className = 'menu-list-h3 text-center';
+    const myMenuText = document.createTextNode('Menu List');
     myMenu.appendChild(myMenuText);
     menuDiv.appendChild(myMenu);
-  
+
     // create menu list div
-    const menuListDiv = document.createElement('div')
-    menuListDiv.className = `menu-list-div text-center`;
+    const menuListDiv = document.createElement('div');
+    menuListDiv.className = 'menu-list-div text-center';
     menuListDiv.innerHTML = `
       <div class="menu-list-items">
         <h5>Ba-Pita</h5>
@@ -40,5 +42,3 @@ class Menu {
     menu.appendChild(menuDiv);
   }
 }
-
-export { Menu }

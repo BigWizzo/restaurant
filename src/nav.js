@@ -1,7 +1,7 @@
-const content = document.getElementById('content');
+export default class Nav {
+  static createNav() {
+    const content = document.getElementById('content');
 
-class Nav {
-  static createNav(){
     content.innerHTML = `
     <ul class="nav nav-tabs bg-dark sticky-top justify-content-center p-2">
       <li class="nav-item">
@@ -22,5 +22,3 @@ class Nav {
     `;
   }
 }
-
-export { Nav }

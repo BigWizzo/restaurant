@@ -5,8 +5,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   experiments: {
-     asset: true
-    },
+    asset: true,
+  },
   entry: {
     index: './src/index.js',
   },
@@ -22,7 +22,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: 'assets/[hash][ext][query]'
+    assetModuleFilename: 'assets/[hash][ext][query]',
   },
   module: {
     rules: [
@@ -35,14 +35,14 @@ module.exports = {
         use: [
           {
             loader: 'html-loader',
-            options: { minimize: true }
-          }
-        ]
+            options: { minimize: true },
+          },
+        ],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource'
-      }
-    ]
-  }
+        type: 'asset/resource',
+      },
+    ],
+  },
 };

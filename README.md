@@ -33,7 +33,7 @@ Install Node, npm and webpack:
   npm install webpack webpack-cli --save-dev
 ```
 
-- Open index.html file in browser
+- run `npm run start:dev` to open the the project in your browser
 
 ### Github Actions
 

@@ -37,38 +37,38 @@ class Landing {
     // Keep cards as objects
     const cards = {
       card1: {
-  	    image1: "http://127.0.0.1:5500/src/images/img1.jpg",
-        image2: "http://127.0.0.1:5500/src/images/img2.jpg",
+  	    image1: `${window.location.origin}/src/images/img1.jpg`,
+        image2: `${window.location.origin}/src/images/img2.jpg`,
         h3: "Compact Menu",
         p: "classics option",
   	  },
       card2: {
-        image1: "http://127.0.0.1:5500/src/images/img3.jpg",
-        image2: "http://127.0.0.1:5500/src/images/img4.jpg",
+        image1: `${window.location.origin}/src/images/img3.jpg`,
+        image2: `${window.location.origin}/src/images/img4.jpg`,
         h3: "Five Pizzas",
         p: "that’s all you need",
       },
       card3: {
-        image1: "http://127.0.0.1:5500/src/images/img5.jpg",
-        image2: "http://127.0.0.1:5500/src/images/img6.jpg",
+        image1: `${window.location.origin}/src/images/img5.jpg`,
+        image2: `${window.location.origin}/src/images/img6.jpg`,
         h3: "Bacon Salami,",
         p: "good old fashion",
       },
       card4: {
-        image1: "http://127.0.0.1:5500/src/images/img7.jpg",
-        image2: "http://127.0.0.1:5500/src/images/img8.jpg",
+        image1: `${window.location.origin}/src/images/img7.jpg`,
+        image2: `${window.location.origin}/src/images/img8.jpg`,
         h3: "Mushroom Bianca",
         p: "your type of juicy",
       },
       card5: {
-        image1: "http://127.0.0.1:5500/src/images/img9.jpg",
-        image2: "http://127.0.0.1:5500/src/images/img10.jpg",
+        image1: `${window.location.origin}/src/images/img9.jpg`,
+        image2: `${window.location.origin}/src/images/img10.jpg`,
         h3: "Crust Galore",
         p: "This is cringy noon",
       },
       card6: {
-        image1: "http://127.0.0.1:5500/src/images/img11.jpg",
-        image2: "http://127.0.0.1:5500/src/images/img12.jpg",
+        image1: `${window.location.origin}/src/images/img11.jpg`,
+        image2: `${window.location.origin}/src/images/img12.jpg`,
         h3: "Balsamic Glaze",
         p: "fly without wings",
       }
@@ -104,7 +104,6 @@ class Landing {
     });
     home.appendChild(main);
   }
-
 }
 
 export { Landing }

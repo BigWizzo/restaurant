@@ -7,10 +7,6 @@
 
 ![screenshot](screenshot.jpg)
 
-## Live Demo
-
-[Live version: https://bigwizzo.github.io/restaurant/](https://bigwizzo.github.io/restaurant/)
-
 ## Built With
 
 - Javascript

@@ -22,8 +22,8 @@ export default class Landing {
 
     // create jumbo anchor
     const jumboA = document.createElement('a');
-    jumboA.className = 'btn btn-primary btn-lg';
-    const jumboAText = document.createTextNode('Menu List');
+    jumboA.className = 'jumbo-an';
+    const jumboAText = document.createTextNode('WELCOME');
     jumboA.appendChild(jumboAText);
     header.appendChild(jumboA);
 

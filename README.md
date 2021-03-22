@@ -5,7 +5,11 @@
 - Javascript Restaurant Page website.
 - The site contains the landing, menuList as well as the contact page..
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.jpg)
+
+## Live Demo
+
+[Live version: https://bigwizzo.github.io/restaurant/](https://bigwizzo.github.io/restaurant/)
 
 ## Built With
 

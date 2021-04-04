@@ -5,7 +5,7 @@
 - Javascript Restaurant Page website.
 - The site contains the landing, menuList as well as the contact page..
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.jpg)
 
 ## Built With
 

@@ -1,3 +1,16 @@
+import img1 from './images/img1.jpg';
+import img2 from './images/img2.jpg';
+import img13 from './images/img13.jpg';
+import img4 from './images/img4.jpg';
+import img5 from './images/img5.jpg';
+import img6 from './images/img6.jpg';
+import img7 from './images/img7.jpg';
+import img8 from './images/img8.jpg';
+import img9 from './images/img9.jpg';
+import img10 from './images/img10.jpg';
+import img14 from './images/img14.jpg';
+import img12 from './images/img12.jpg';
+
 export default class Landing {
   static header() {
     const home = document.getElementById('home');
@@ -40,38 +53,38 @@ export default class Landing {
     // Keep cards as objects
     const cards = {
       card1: {
-        image1: `${window.location.origin}/src/images/img1.jpg`,
-        image2: `${window.location.origin}/src/images/img2.jpg`,
+        image1: img1,
+        image2: img2,
         h3: 'Compact Menu',
         p: 'classics option',
       },
       card2: {
-        image1: `${window.location.origin}/src/images/img3.jpg`,
-        image2: `${window.location.origin}/src/images/img4.jpg`,
+        image1: img13,
+        image2: img4,
         h3: 'Five Pizzas',
         p: 'that’s all you need',
       },
       card3: {
-        image1: `${window.location.origin}/src/images/img5.jpg`,
-        image2: `${window.location.origin}/src/images/img6.jpg`,
+        image1: img5,
+        image2: img6,
         h3: 'Bacon Salami,',
         p: 'good old fashion',
       },
       card4: {
-        image1: `${window.location.origin}/src/images/img7.jpg`,
-        image2: `${window.location.origin}/src/images/img8.jpg`,
+        image1: img7,
+        image2: img8,
         h3: 'Mushroom Bianca',
         p: 'your type of juicy',
       },
       card5: {
-        image1: `${window.location.origin}/src/images/img9.jpg`,
-        image2: `${window.location.origin}/src/images/img10.jpg`,
+        image1: img9,
+        image2: img10,
         h3: 'Crust Galore',
         p: 'This is cringy noon',
       },
       card6: {
-        image1: `${window.location.origin}/src/images/img11.jpg`,
-        image2: `${window.location.origin}/src/images/img12.jpg`,
+        image1: img14,
+        image2: img12,
         h3: 'Balsamic Glaze',
         p: 'fly without wings',
       },

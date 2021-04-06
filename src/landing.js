@@ -77,14 +77,14 @@ export default class Landing {
         p: 'your type of juicy',
       },
       card5: {
-        image1: img9,
-        image2: img10,
+        image1: img12,
+        image2: img14,
         h3: 'Crust Galore',
         p: 'This is cringy noon',
       },
       card6: {
-        image1: img14,
-        image2: img12,
+        image1: img9,
+        image2: img10,
         h3: 'Balsamic Glaze',
         p: 'fly without wings',
       },

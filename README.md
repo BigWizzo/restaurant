@@ -7,6 +7,10 @@
 
 ![screenshot](screenshot.jpg)
 
+## Live Demo
+
+[Live version: https://bigwizzo.github.io/weather-app/](https://bigwizzo.github.io/restaurant/)
+
 ## Built With
 
 - Javascript

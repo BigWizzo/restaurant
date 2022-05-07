@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Social on Main Restaurant
 
 - Javascript Restaurant Page website.
